@@ -1,34 +1,23 @@
-# vue-js-testing
+# Vue.JS - Test Driven Development
 
-## Project setup
+## About
+
+**Fecha:** 19-09-2019
+**Speaker:** David Daza
+
+## Recursos
+
+- [Slides](https://slides.com/ddazal/vue-js-testing)
+
+## Setup
+
 ```
+git clone git@github.com:ddazal/vue-js-testing.git
+cd vue-js-testing
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Run your unit tests
+## Tests unitarios
 ```
 yarn run test:unit
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
