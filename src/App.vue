@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <todo-input />
+    <Todo />
   </div>
 </template>
 
 <script>
-import TodoInput from './components/TodoInput'
+import Todo from './components/Todo'
 
 export default {
   name: 'app',
-  components: { TodoInput }
+  components: { Todo }
 }
 </script>
 
