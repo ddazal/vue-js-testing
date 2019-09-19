@@ -23,15 +23,15 @@ describe('TodoList', () => {
   })
 
   test('render de cada todo', () => {
-    wrapper.props().todos.forEach((todo, index) => {
+    propsData.todos.forEach((todo, index) => {
       const span = todos.at(index).find('span')
       expect(span.text()).toBe(todo.name)
     })
-    expect(todos.length).toBe(wrapper.props().todos.length)
+    expect(todos.length).toBe(propsData.todos.length)
   })
 
   test('emite un evento cuando se actualiza el estado de un todo', () => {
-    wrapper.props().todos.forEach((todo, index) => {
+    propsData.todos.forEach((todo, index) => {
       const checkbox = todos.at(index).find('input[type="checkbox"]')
       checkbox.setChecked()
       expect(wrapper.emitted('on-checked')).toBeTruthy()
