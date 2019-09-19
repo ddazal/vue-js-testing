@@ -3,6 +3,7 @@
 ## About
 
 **Fecha:** 19-09-2019
+
 **Speaker:** David Daza
 
 ## Recursos
