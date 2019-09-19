@@ -14,12 +14,16 @@ export default {
 </script>
 
 <style>
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fcfcfc;
+  margin: 0;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 </style>
