@@ -46,7 +46,7 @@ describe('Todo', () => {
     expect(wrapper.vm.todos[0].completed).toBe(true)
   })
 
-  test('TodoList recibe el estado de Todo como props', () => {
+  test('TodoProgress recibe el estado de Todo como props', () => {
     const wrapper = shallowMount(Todo)
     wrapper.setData({
       todos: [
